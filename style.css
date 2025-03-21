@@ -1,0 +1,119 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: #caf2e1;
+	color: #001f3f;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Gill Sans', sans-ser;
+}
+
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.container > div {
+	margin: 20px auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media (max-width: 650px) {
+    .about-grid {
+        grid-template-columns: 100%;
+    }
+}
+
+.i-am, .i-like {
+    text-align: center;
+    text-decoration: none
+}
+.vertical {
+    border-left: thick solid;
+    align-self: center;
+}
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-heading {
+    text-align: center; 
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media (max-width: 650px) {
+    .projects-grid {
+        grid-template-columns: 100%;
+    }
+}
+
+.project-image {
+    justify-self: center;
+    padding:10px;
+    width: 250px;
+    border: 5px solid grey;
+    margin:10px;
+    border-radius: 20%;
+    box-shadow: 0 10px 10px 0;
+}
+
+.links-and-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media (max-width: 650px) {
+    .links-and-contact {
+        grid-template-columns: 100%;
+    }
+}
+
+.links {
+    justify-self: center;
+    left: 20%;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+form input, textarea {
+	padding: 5px;
+	border-radius: 5px;
+	width: 240px;
+}
+
+form {
+	width: 250px;
+	margin: 0 auto;
+}
+
+form input[type="submit"] {
+	width: 250px;
+}
+
+.submit-button-wrapper {
+	margin: 20px 0;
+    background-color: aqua;
+    color: black;
+}
+
+.map{
+    text-align: center;
+    
+}
+.profile-picture {
+    width: 150px;
+    border-radius: 50%
+}
